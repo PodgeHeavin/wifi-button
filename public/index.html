@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="raffle.js"></script>
+    <script src="members.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        html,
+        body {
+           height: 90%;
+        }
+        
+        .main {
+            height: 90%;
+            width: 100%;
+            display: table;
+        }
+        
+        .wrapper {
+            display: table-cell;
+            height: 90%;
+            horizontal-align: center;
+        }
+        
+        .stacked {
+            font-family: 'Tangerine', serif;
+            font-color: green;
+            font-size: 120pt;
+            width: 100%;
+        }
+        
+        .number {
+            font-size: 50pt;
+            font-weight: bold;
+            width: 100%;
+        }
+        
+        h1 {
+            font-family: 'Corciva', serif;
+            font-size: 55pt;
+            width: 100%;
+        }
+        
+        #header {
+            height: 200pt;
+        }
+    </style>
+</head>
+
+<body style="vertical-align:middle">
+    <div id="main" class="main">
+        <div class="wrapper" align="center">
+            <h1>Raffle Title</h1>
+            <div class="stacked" id="header"><img style='height:100%' id="gif" /></div>
+            <div class="number" id="winner"></div>
+            <div class="stacked" id="name"></div>
+        </div>
+    </div>
+	<div id="complete" class="main">
+        <div class="wrapper" align="center">
+            <h1>Raffle Title</h1>
+            <div class="stacked" id="header"></div>
+            <div class="number" id="winner">That's All Folks</div>
+            <div class="stacked" id="name"></div>
+        </div>
+    </div>
+</body>
+
+</html>
